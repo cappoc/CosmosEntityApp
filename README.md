@@ -6,7 +6,11 @@
 
 # PackageReference
   Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  
   Microsoft.EntityFrameworkCore.Cosmos
+  
   Microsoft.EntityFrameworkCore.Design
+  
   Microsoft.EntityFrameworkCore.SqlServer
-  Microsoft.EntityFrameworkCore.Tools"
+  
+  Microsoft.EntityFrameworkCore.Tools
