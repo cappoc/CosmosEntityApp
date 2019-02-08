@@ -1,12 +1,12 @@
 # CosmosEntityApp
-This repository about Entity Framework with Cosmos Db 
+  This repository about Entity Framework with Cosmos Db 
 
 #TargetFramework
-netcoreapp3.0
+  netcoreapp3.0
 
 #PackageReference
-Microsoft.AspNetCore.Mvc.NewtonsoftJson
-Microsoft.EntityFrameworkCore.Cosmos
-Microsoft.EntityFrameworkCore.Design
-Microsoft.EntityFrameworkCore.SqlServer
-Microsoft.EntityFrameworkCore.Tools"
+  Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  Microsoft.EntityFrameworkCore.Cosmos
+  Microsoft.EntityFrameworkCore.Design
+  Microsoft.EntityFrameworkCore.SqlServer
+  Microsoft.EntityFrameworkCore.Tools"
