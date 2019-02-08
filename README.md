@@ -1,7 +1,7 @@
 # CosmosEntityApp
   This repository about Entity Framework with Cosmos Db 
 
-#TargetFramework /n
+#TargetFramework
   netcoreapp3.0
 
 #PackageReference
