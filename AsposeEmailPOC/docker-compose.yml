@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mailkitreademailpoc:
+    image: ${DOCKER_REGISTRY-}mailkitreademailpoc
+    build:
+      context: .
+      dockerfile: MailKitReadEmailPOC\Dockerfile

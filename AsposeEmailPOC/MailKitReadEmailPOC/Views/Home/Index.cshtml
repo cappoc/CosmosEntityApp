@@ -1,0 +1,66 @@
+﻿@model MailKitReadEmailPOC.Models.DashBoardMailBoxJob
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3> Mail Box >> @Html.DisplayFor(m => m.mess)</h3>
+
+
+<div class="row" id="asd">
+    <div class="col-md-6">
+        <table class="table table-bordered" id="example2">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Sender</th>
+                    <th>Subject</th>
+                    <th>Attachment(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var item in Model.Inbox)
+                    {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.sendDate)</td>
+                    <td>@Html.DisplayFor(m => item.sender)</td>
+                    <td>@Html.DisplayFor(m => item.subject)</td>
+                    @*<td>@Html.DisplayFor(m => item.attachmentName)</td>*@
+                    <td id="@item.UID">
+                        <a href='@Url.Action("DownloadAttachment", "Home", new { id = item.UID })'>
+                            @Html.DisplayFor(m => item.attachmentName)
+                        </a>
+                    </td>
+
+                    @*<td>
+                        @if (item.Attachments != null)
+                        {
+                            @foreach (var attachment in item.Attachments)
+                            {
+                                <a href='@Url.Action("DownloadAttachment", "Home", new { id = item.UID })'>
+                                    @Html.Display(attachment.Name)
+                                </a>
+                            }
+                        }
+                    </td>*@
+                    @*<td id="@item.UID">
+            <a href='@Url.Action("GetMessegeBody", "MailBox", new { id = item.UID })'>
+                @Html.DisplayFor(m => item.subject)
+            </a>
+        </td>*@
+
+                </tr>
+                    }
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+
+
