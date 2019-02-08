@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService", "BookService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsposeEmailPOC", "AsposeEmailPOC\MailKitReadEmailPOC\AsposeEmailPOC.csproj", "{CA2B8311-2806-4352-9EF2-C6C93B7E226E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailKitReadEmailPOC", "MailKitReadEmailPOC\MailKitReadEmailPOC.csproj", "{907756A1-B08B-4F51-8025-992F26092373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CA2B8311-2806-4352-9EF2-C6C93B7E226E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2B8311-2806-4352-9EF2-C6C93B7E226E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2B8311-2806-4352-9EF2-C6C93B7E226E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907756A1-B08B-4F51-8025-992F26092373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907756A1-B08B-4F51-8025-992F26092373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907756A1-B08B-4F51-8025-992F26092373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907756A1-B08B-4F51-8025-992F26092373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{37AA3D8B-055B-4940-B7EF-F0352D490B2A} = {95AB17A9-8057-4931-8B50-2ADFD5B12273}
 		{7FE8D8D6-9F40-455D-B603-6872C20ED63A} = {8D7178D6-0998-4C19-9CD8-B18814B7EC15}
 		{CA2B8311-2806-4352-9EF2-C6C93B7E226E} = {8D7178D6-0998-4C19-9CD8-B18814B7EC15}
+		{907756A1-B08B-4F51-8025-992F26092373} = {8D7178D6-0998-4C19-9CD8-B18814B7EC15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {247697E6-5835-4002-A683-FAA8B571FF97}

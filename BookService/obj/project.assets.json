@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\narayana\\.nuget\\packages\\": {},
+    "C:\\Users\\Saritha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitPlugins\\CosmosEntityApp\\BookService\\BookService.csproj",
+      "projectUniqueName": "C:\\Checkins\\GitHub\\CosmosEntityApp\\BookService\\BookService.csproj",
       "projectName": "BookService",
-      "projectPath": "C:\\GitPlugins\\CosmosEntityApp\\BookService\\BookService.csproj",
-      "packagesPath": "C:\\Users\\narayana\\.nuget\\packages\\",
-      "outputPath": "C:\\GitPlugins\\CosmosEntityApp\\BookService\\obj\\",
+      "projectPath": "C:\\Checkins\\GitHub\\CosmosEntityApp\\BookService\\BookService.csproj",
+      "packagesPath": "C:\\Users\\Saritha\\.nuget\\packages\\",
+      "outputPath": "C:\\Checkins\\GitHub\\CosmosEntityApp\\BookService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\narayana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saritha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
